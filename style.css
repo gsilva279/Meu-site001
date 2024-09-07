@@ -1,0 +1,82 @@
+body{
+  background-color: #333333;
+  color: #FFFFFF;
+  font-family:serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+header  {
+  background-color:#333333;
+  position: relative;
+  top: -7px;
+}
+
+main{
+  background-color: #6495ED;
+  border-radius: 8px;
+}
+footer{
+  background-color: #333333;
+  text-align: center;
+  padding: 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  font-size: 1rem;
+}
+.div{
+  font:normal 6pt Arial;
+  padding-top: -10px;
+  text-align: center;
+  background: #6495ED;
+  border-radius: 20px;
+  height: 8px;
+  width: 40px;
+  position: relative;
+  left: 300px;
+  top: -50px; 
+  
+}
+ .item-resultado a:hover {
+  text-decoration: underline;
+}
+.item-resultado a {
+  text-decoration: none;
+  color: white;
+}
+.div a {
+  color: white;
+  text-decoration: none;
+}
+.titulo{
+  height: 60px;
+}
+#campo-pesquisa{
+  position: relative;
+  top:10px;
+  border-radius: 10px;
+  width: 400px;
+  text-align: center;
+}
+.butao {
+  position: relative;
+  top:10px;
+  border: none;
+  border-radius: 0.8rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.butao:hover {
+  background-color: #67676E;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 2);
+}
+.resultados-pesquisa{
+  background: #6495ED;
+  overflow: auto;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 0.6rem;
+}
